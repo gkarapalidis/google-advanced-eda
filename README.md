@@ -15,6 +15,10 @@ Its supports app to two metrics at the same time and you can perform the below e
 
 I will keep developing the app and continue making changes to the UI and features. 
 
+![enter image description here](https://lh3.googleusercontent.com/IKtaRXpSlzfBXH_Qh6_MBiG86YtKtby9wvdPNG1VsoUAhf1d8aPgMIpYEbF-5Se-IDWtkyhkjltk "Advanced EDA Screenshot")
+
+[Demo](https://karapalidis.com/advanced-eda/)
+
 ## Packages
 
 Packages currently in use listed below and links to all the original sources provided for reference.
@@ -26,25 +30,25 @@ Packages currently in use listed below and links to all the original sources pro
 [shinythemes](https://github.com/rstudio/shinythemes) (1.1.2)
 [shinyWidgets](https://github.com/dreamRs/shinyWidgets) (0.4.8)
 [shinybusy](https://github.com/dreamRs/shinybusy) (0.1.2)
-rsconnect
+[rsconnect](https://github.com/rstudio/rsconnect) (0.8.15)
 
 **Google API libraries**
 [googleAuthR](https://code.markedmondson.me/googleAuthR/) (0.8.1)
 [googleAnalyticsR](https://code.markedmondson.me/googleAnalyticsR/) (0.6.0)
 
 **Graph libraries**
-dygraphs (1.1.1.6)
-ggplot2 (3.2.1)
-plotly (4.9.0)
-d3heatmap (0.6.1.2)
+[dygraphs](https://github.com/rstudio/dygraphs) (1.1.1.6)
+[ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html) (3.2.1)
+[plotly](https://cran.r-project.org/web/packages/plotly/index.html) (4.9.0)
+[d3heatmap](https://github.com/rstudio/d3heatmap) (0.6.1.2)
 
 **Models and time series**
-prophet (0.5)
-AnomalyDetection (1.0)
-CausalImpact (1.2.3)
-xts (0.11-2)
-tseries (0.10-47)
-zoo (1.8-6)
+[prophet](https://facebook.github.io/prophet/) (0.5)
+[AnomalyDetection](https://github.com/twitter/AnomalyDetection) (1.0)
+[CausalImpact](https://github.com/google/CausalImpact) (1.2.3)
+[xts](https://cran.r-project.org/web/packages/xts/index.html) (0.11-2)
+[tseries](https://cran.r-project.org/web/packages/tseries/index.html) (0.10-47)
+[zoo](https://cran.r-project.org/web/packages/zoo/index.html) (1.8-6)
 
 **Data manipulation**
 tidyr (0.8.3)
