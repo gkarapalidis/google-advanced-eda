@@ -15,7 +15,7 @@ Its supports app to two metrics at the same time and you can perform the below e
 
 I will keep developing the app and continue making changes to the UI and features. 
 
-![enter image description here](https://lh3.googleusercontent.com/IKtaRXpSlzfBXH_Qh6_MBiG86YtKtby9wvdPNG1VsoUAhf1d8aPgMIpYEbF-5Se-IDWtkyhkjltk "Advanced EDA Screenshot")
+![](https://lh3.googleusercontent.com/5WWG90fKhlfin-v9tKKJFquO9eGC8_NCfxs7I7s2-VtCz94SBTYrDfcEM89OxpVc_HewLjKYPDco "Advanced EDA screenshot")
 
 [Demo](https://karapalidis.com/advanced-eda/)
 
