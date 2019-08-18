@@ -45,10 +45,10 @@ Inspiration was taken from a Shiny demo dashboard <a href="https://github.com/Ma
 <a href="https://cran.r-project.org/web/packages/tseries/index.html">tseries</a> (0.10-47)<br>
 <a href="https://cran.r-project.org/web/packages/zoo/index.html">zoo</a> (1.8-6)</p>
 <p><strong>Data manipulation</strong><br>
-tidyr (0.8.3)<br>
-lubridate (1.7.4)<br>
-stringr (1.4.0)<br>
-dplyr (0.8.3)<br>
-data.table (1.12.2)<br>
-DT (0.8)</p>
+<a href="https://uc-r.github.io/tidyr">tidyr</a> (0.8.3)<br>
+<a href="https://cran.rstudio.com/web/packages/lubridate/lubridate.pdf">lubridate</a> (1.7.4)<br>
+<a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html">stringr</a> (1.4.0)<br>
+<a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr</a> (0.8.3)<br>
+<a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> (1.12.2)<br>
+<a href="https://rstudio.github.io/DT/">DT</a> (0.8)</p>
 
