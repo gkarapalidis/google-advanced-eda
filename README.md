@@ -34,7 +34,7 @@ Inspiration was taken from a Shiny demo dashboard <a href="https://github.com/Ma
 <p><strong>Required</strong><br>
 devtools<br>
 (for AnomalyDetection and ShinySky, these packages are not available from CRAN)</p>
-<h3 id="installation">Installation</h3>
+<h2 id="installation">Installation</h2>
 <p>Install all the above required packages using the code below.</p>
 <pre><code>install.packages("devtools", dependencies = TRUE)
 
