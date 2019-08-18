@@ -44,6 +44,7 @@ install.packages("shinythemes", dependencies = TRUE)
 install.packages("shinyWidgets", dependencies = TRUE)
 install.packages("shinybusy", dependencies = TRUE)
 devtools::install_github("AnalytixWare/ShinySky", dependencies = TRUE)
+install.packages("rsconnect", dependencies = TRUE)
 
 install.packages("googleAuthR", dependencies = TRUE)
 install.packages("googleAnalyticsR", dependencies = TRUE)
@@ -66,7 +67,5 @@ install.packages("stringr", dependencies = TRUE)
 install.packages("dplyr", dependencies = TRUE)
 install.packages("data.table", dependencies = TRUE)
 install.packages("DT", dependencies = TRUE)
-
-install.packages("rsconnect", dependencies = TRUE)
 </code></pre>
 
