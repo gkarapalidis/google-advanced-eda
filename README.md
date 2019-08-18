@@ -4,7 +4,7 @@ Hi! This is my first ShinyApp and its purpose is to help analyse data from Googl
 This app is purely an experiment and a way for me to become more familiar with R, Shiny and statistical models.
 Inspiration was taken from a Shiny demo dashboard [Mark Edmondson](https://github.com/MarkEdmondson1234) created. 
 
-It requests data for two metrics at the same time and you can perform the below exploratory and predictive analysis.
+Its supports app to two metrics at the same time and you can perform the below exploratory and predictive analysis.
 
  1. Performance over time for up to two metrics and Google updates annotations for reference.
  2. Extraction of seasonality using time series decomposition
@@ -26,7 +26,30 @@ Packages currently in use listed below and links to all the original sources pro
 [shinythemes](https://github.com/rstudio/shinythemes) (1.1.2)
 [shinyWidgets](https://github.com/dreamRs/shinyWidgets) (0.4.8)
 [shinybusy](https://github.com/dreamRs/shinybusy) (0.1.2)
+rsconnect
 
 **Google API libraries**
 [googleAuthR](https://code.markedmondson.me/googleAuthR/) (0.8.1)
 [googleAnalyticsR](https://code.markedmondson.me/googleAnalyticsR/) (0.6.0)
+
+**Graph libraries**
+dygraphs (1.1.1.6)
+ggplot2 (3.2.1)
+plotly (4.9.0)
+d3heatmap (0.6.1.2)
+
+**Models and time series**
+prophet (0.5)
+AnomalyDetection (1.0)
+CausalImpact (1.2.3)
+xts (0.11-2)
+tseries (0.10-47)
+zoo (1.8-6)
+
+**Data manipulation**
+tidyr (0.8.3)
+lubridate (1.7.4)
+stringr (1.4.0)
+dplyr (0.8.3)
+data.table (1.12.2)
+DT (0.8)
