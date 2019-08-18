@@ -1,5 +1,5 @@
 
-source("libraries.R")
+source(file.path("required", "libraries.R"),  local = TRUE)$value
 
 #
 # SCATTER PLOT FOR THE RELATIONSHIP OF THE 2 METRICS

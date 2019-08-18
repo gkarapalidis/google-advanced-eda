@@ -1,6 +1,6 @@
 ## functions.R
 
-source("libraries.R")
+source(file.path("required", "libraries.R"),  local = TRUE)$value
 
 #message("functions.R called from ", getwd())
 

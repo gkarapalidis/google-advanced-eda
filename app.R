@@ -30,6 +30,6 @@
 #################################################################################################
 
 # load libraries
-source("libraries.R")
+source(file.path("required", "libraries.R"),  local = TRUE)$value
 
 shinyApp(ui = ui.R, server = server.R)

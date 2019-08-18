@@ -2,7 +2,7 @@
 ## ui.R
 ##
 
-source("libraries.R")
+source(file.path("required", "libraries.R"),  local = TRUE)$value
 
 ui = tagList(
       navbarPage("",

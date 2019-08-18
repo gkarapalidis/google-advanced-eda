@@ -4,7 +4,7 @@
 #
 #
 
-source("libraries.R")
+source(file.path("required", "libraries.R"),  local = TRUE)$value
 
 #
 # LINE GRAPHS

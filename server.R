@@ -2,7 +2,7 @@
 ## server.R
 ##
 
-source("libraries.R")
+source(file.path("required", "libraries.R"),  local = TRUE)$value
 
 server = function(input, output, session) {
   

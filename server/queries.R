@@ -1,5 +1,5 @@
 
-source("libraries.R")
+source(file.path("required", "libraries.R"),  local = TRUE)$value
 
 #
 # GA Query for Primary metric
