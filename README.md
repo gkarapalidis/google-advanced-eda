@@ -7,7 +7,7 @@
 <p>Hi! This is my first ShinyApp and its purpose is to help analyse data from Google Analytics easily and quickly.<br>
 This app is purely an experiment and a way for me to become more familiar with R, Shiny and statistical models.<br>
 Inspiration was taken from a Shiny demo dashboard <a href="https://github.com/MarkEdmondson1234">Mark Edmondson</a> created.</p>
-<p>Its supports app to two metrics at the same time and you can perform the below exploratory and predictive analysis.</p>
+<p>It requests data from GA for two metrics at the same time and you can perform the below exploratory and predictive analysis.</p>
 <ol>
 <li>Performance over time for up to two metrics and Google updates annotations for reference.</li>
 <li>Extraction of seasonality using time series decomposition</li>
