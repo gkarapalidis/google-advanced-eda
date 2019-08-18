@@ -6,7 +6,7 @@ source(file.path("required", "libraries.R"),  local = TRUE)$value
 
 server = function(input, output, session) {
   
-  source(file.path("server", "queries.R"),  local = TRUE)$value
+  source(file.path("server", "ga-queries.R"),  local = TRUE)$value
   source(file.path("server", "functions.R"),  local = TRUE)$value
   source(file.path("server", "performance-tab.R"),  local = TRUE)$value
   source(file.path("server", "seasonality-tab.R"),  local = TRUE)$value
