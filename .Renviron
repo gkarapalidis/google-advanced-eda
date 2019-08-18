@@ -1,0 +1,2 @@
+GL_AUTH = "auth/verbal.json"
+GAR_CLIENT_WEB_JSON = "auth/analytics.json"
