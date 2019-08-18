@@ -30,8 +30,7 @@ Inspiration was taken from a Shiny demo dashboard <a href="https://github.com/Ma
 <p><strong>Models and time series</strong><br>
 <a href="https://facebook.github.io/prophet/">prophet</a> (0.5) <a href="https://github.com/twitter/AnomalyDetection">AnomalyDetection</a> (1.0) <a href="https://github.com/google/CausalImpact">CausalImpact</a> (1.2.3) <a href="https://cran.r-project.org/web/packages/xts/index.html">xts</a> (0.11-2) <a href="https://cran.r-project.org/web/packages/tseries/index.html">tseries</a> (0.10-47) <a href="https://cran.r-project.org/web/packages/zoo/index.html">zoo</a> (1.8-6)</p>
 <p><strong>Data manipulation</strong><br>
-<a href="https://uc-r.github.io/tidyr">tidyr</a> (0.8.3) <a href="https://cran.rstudio.com/web/packages/lubridate/lubridate.pdf">lubridate</a> (1.7.4) <a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html">stringr</a> (1.4.0) <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr</a> (0.8.3) <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> (1.12.2)<br>
-<a href="https://rstudio.github.io/DT/">DT</a> (0.8)</p>
+<a href="https://uc-r.github.io/tidyr">tidyr</a> (0.8.3) <a href="https://cran.rstudio.com/web/packages/lubridate/lubridate.pdf">lubridate</a> (1.7.4) <a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html">stringr</a> (1.4.0) <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr</a> (0.8.3) <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> (1.12.2) <a href="https://rstudio.github.io/DT/">DT</a> (0.8)</p>
 <p><strong>Required</strong><br>
 devtools<br>
 (for AnomalyDetection and ShinySky, these packages are not available from CRAN)</p>
