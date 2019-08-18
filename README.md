@@ -19,7 +19,7 @@ Inspiration was taken from a Shiny demo dashboard <a href="https://github.com/Ma
 <p>I will keep developing the app and continue making changes to the UI and features.</p>
 <p><img src="https://lh3.googleusercontent.com/3OXPPsYZeviYKZwUt_ktvN3kpN-7HW-RMOSqvdVEGzZtUagIAyuYnttbDyRPqYbGIxWHC7BmfbiW" alt="enter image description here"></p>
 <p><a href="https://karapalidis.com/advanced-eda/">Demo</a></p>
-<h2 id="packages">Packages</h2>
+<h2 id="packages-and-dependencies">Packages and dependencies</h2>
 <p>Packages currently in use listed below and links to all the original sources provided for reference.</p>
 <p><strong>Shiny libraries</strong><br>
 <a href="https://github.com/rstudio/shiny">shiny</a> (1.3.2.9001)<br>
@@ -51,4 +51,42 @@ Inspiration was taken from a Shiny demo dashboard <a href="https://github.com/Ma
 <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr</a> (0.8.3)<br>
 <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> (1.12.2)<br>
 <a href="https://rstudio.github.io/DT/">DT</a> (0.8)</p>
+<p><strong>Required</strong><br>
+devtools<br>
+(for AnomalyDetection and ShinySky, this packages are not available from CRAN)</p>
+<h3 id="installation">Installation</h3>
+<p>Install all the above required packages using the code below.</p>
+<pre><code>install.packages("devtools", dependencies = TRUE)
+
+install.packages("shiny", dependencies = TRUE)
+install.packages("shinyjs", dependencies = TRUE)
+install.packages("shinythemes", dependencies = TRUE)
+install.packages("shinyWidgets", dependencies = TRUE)
+install.packages("shinybusy", dependencies = TRUE)
+devtools::install_github("AnalytixWare/ShinySky", dependencies = TRUE)
+
+install.packages("googleAuthR", dependencies = TRUE)
+install.packages("googleAnalyticsR", dependencies = TRUE)
+
+install.packages("dygraphs", dependencies = TRUE)
+install.packages("ggplot2", dependencies = TRUE)
+install.packages("plotly", dependencies = TRUE)
+install.packages("d3heatmap", dependencies = TRUE)
+
+install.packages("prophet", dependencies = TRUE)
+install.packages("CausalImpact", dependencies = TRUE)
+install.packages("xts", dependencies = TRUE)
+install.packages("tseries", dependencies = TRUE)
+install.packages("zoo", dependencies = TRUE)
+devtools::install_github("twitter/AnomalyDetection", dependencies = TRUE)
+
+install.packages("tidyr", dependencies = TRUE)
+install.packages("lubridate", dependencies = TRUE)
+install.packages("stringr", dependencies = TRUE)
+install.packages("dplyr", dependencies = TRUE)
+install.packages("data.table", dependencies = TRUE)
+install.packages("DT", dependencies = TRUE)
+
+install.packages("rsconnect", dependencies = TRUE)
+</code></pre>
 
