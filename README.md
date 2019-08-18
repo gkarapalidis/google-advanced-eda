@@ -22,38 +22,19 @@ Inspiration was taken from a Shiny demo dashboard <a href="https://github.com/Ma
 <h2 id="packages-and-dependencies">Packages and dependencies</h2>
 <p>Packages currently in use listed below and links to all the original sources provided for reference.</p>
 <p><strong>Shiny libraries</strong><br>
-<a href="https://github.com/rstudio/shiny">shiny</a> (1.3.2.9001)<br>
-<a href="https://github.com/daattali/shinyjs">shinyjs</a> (1.0)<br>
-<a href="https://github.com/AnalytixWare/ShinySky">shinysky</a> (0.1.2)<br>
-<a href="https://github.com/rstudio/shinythemes">shinythemes</a> (1.1.2)<br>
-<a href="https://github.com/dreamRs/shinyWidgets">shinyWidgets</a> (0.4.8)<br>
-<a href="https://github.com/dreamRs/shinybusy">shinybusy</a> (0.1.2)<br>
-<a href="https://github.com/rstudio/rsconnect">rsconnect</a> (0.8.15)</p>
+<a href="https://github.com/rstudio/shiny">shiny</a> (1.3.2.9001) <a href="https://github.com/daattali/shinyjs">shinyjs</a> (1.0) <a href="https://github.com/AnalytixWare/ShinySky">shinysky</a> (0.1.2) <a href="https://github.com/rstudio/shinythemes">shinythemes</a> (1.1.2) <a href="https://github.com/dreamRs/shinyWidgets">shinyWidgets</a> (0.4.8) <a href="https://github.com/dreamRs/shinybusy">shinybusy</a> (0.1.2) <a href="https://github.com/rstudio/rsconnect">rsconnect</a> (0.8.15)</p>
 <p><strong>Google API libraries</strong><br>
-<a href="https://code.markedmondson.me/googleAuthR/">googleAuthR</a> (0.8.1)<br>
-<a href="https://code.markedmondson.me/googleAnalyticsR/">googleAnalyticsR</a> (0.6.0)</p>
+<a href="https://code.markedmondson.me/googleAuthR/">googleAuthR</a> (0.8.1) <a href="https://code.markedmondson.me/googleAnalyticsR/">googleAnalyticsR</a> (0.6.0)</p>
 <p><strong>Graph libraries</strong><br>
-<a href="https://github.com/rstudio/dygraphs">dygraphs</a> (1.1.1.6)<br>
-<a href="https://cran.r-project.org/web/packages/ggplot2/index.html">ggplot2</a> (3.2.1)<br>
-<a href="https://cran.r-project.org/web/packages/plotly/index.html">plotly</a> (4.9.0)<br>
-<a href="https://github.com/rstudio/d3heatmap">d3heatmap</a> (0.6.1.2)</p>
+<a href="https://github.com/rstudio/dygraphs">dygraphs</a> (1.1.1.6) <a href="https://cran.r-project.org/web/packages/ggplot2/index.html">ggplot2</a> (3.2.1) <a href="https://cran.r-project.org/web/packages/plotly/index.html">plotly</a> (4.9.0) <a href="https://github.com/rstudio/d3heatmap">d3heatmap</a> (0.6.1.2)</p>
 <p><strong>Models and time series</strong><br>
-<a href="https://facebook.github.io/prophet/">prophet</a> (0.5)<br>
-<a href="https://github.com/twitter/AnomalyDetection">AnomalyDetection</a> (1.0)<br>
-<a href="https://github.com/google/CausalImpact">CausalImpact</a> (1.2.3)<br>
-<a href="https://cran.r-project.org/web/packages/xts/index.html">xts</a> (0.11-2)<br>
-<a href="https://cran.r-project.org/web/packages/tseries/index.html">tseries</a> (0.10-47)<br>
-<a href="https://cran.r-project.org/web/packages/zoo/index.html">zoo</a> (1.8-6)</p>
+<a href="https://facebook.github.io/prophet/">prophet</a> (0.5) <a href="https://github.com/twitter/AnomalyDetection">AnomalyDetection</a> (1.0) <a href="https://github.com/google/CausalImpact">CausalImpact</a> (1.2.3) <a href="https://cran.r-project.org/web/packages/xts/index.html">xts</a> (0.11-2) <a href="https://cran.r-project.org/web/packages/tseries/index.html">tseries</a> (0.10-47) <a href="https://cran.r-project.org/web/packages/zoo/index.html">zoo</a> (1.8-6)</p>
 <p><strong>Data manipulation</strong><br>
-<a href="https://uc-r.github.io/tidyr">tidyr</a> (0.8.3)<br>
-<a href="https://cran.rstudio.com/web/packages/lubridate/lubridate.pdf">lubridate</a> (1.7.4)<br>
-<a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html">stringr</a> (1.4.0)<br>
-<a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr</a> (0.8.3)<br>
-<a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> (1.12.2)<br>
+<a href="https://uc-r.github.io/tidyr">tidyr</a> (0.8.3) <a href="https://cran.rstudio.com/web/packages/lubridate/lubridate.pdf">lubridate</a> (1.7.4) <a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html">stringr</a> (1.4.0) <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr</a> (0.8.3) <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> (1.12.2)<br>
 <a href="https://rstudio.github.io/DT/">DT</a> (0.8)</p>
 <p><strong>Required</strong><br>
 devtools<br>
-(for AnomalyDetection and ShinySky, this packages are not available from CRAN)</p>
+(for AnomalyDetection and ShinySky, these packages are not available from CRAN)</p>
 <h3 id="installation">Installation</h3>
 <p>Install all the above required packages using the code below.</p>
 <pre><code>install.packages("devtools", dependencies = TRUE)
